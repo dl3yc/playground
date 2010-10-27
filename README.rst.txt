@@ -17,5 +17,7 @@ You can try BatchImP without installing it by running::
 To install BatchImP, run::
 
 	./setup.py install
-	
+
 This is a test
+
+It has changed
