@@ -2,10 +2,6 @@
 class SimpleNote
 {
 
-//baseurl
-//是否https
-//cookie问题
-
     const BASE_URL = "http://192.168.1.20/simplenote/";
 
     const LOGIN_URL = "http://simple-note.appspot.com/api/login";
