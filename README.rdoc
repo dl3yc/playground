@@ -1,8 +1,0 @@
-This is a line of text. This is a big modification.
-This is another line of text.
-This is a new line.
-One more new line.
-Yeah!
-
-This is a test
-This is another test
