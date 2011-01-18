@@ -87,7 +87,7 @@ Testing Prerequisites
    probably eliminate this requirement one day by using Dulwich_, so
    end-users don't have to install Git.
 
-    .. Note:: If you are going to use MSysGit on Windows and plan to use Git from
+   .. Note:: If you are going to use MSysGit on Windows and plan to use Git from
       Windows command prompt (cmd.exe) as opposed to the bash shell, here are some
       tricks to make your life easier.
 
