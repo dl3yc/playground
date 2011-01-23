@@ -1,12 +1,3 @@
-Bla
----
 
-Shit
-
-- - -
-
-***
-
-===
-
-oka
+Help by donating:
+[![Click here to lend your support to: Arachni - Web Application Security Scanner Framework and make a donation at www.pledgie.com!](http://www.pledgie.com/campaigns/14482.png?skin_name=chrome)](http://www.pledgie.com/campaigns/14482)
