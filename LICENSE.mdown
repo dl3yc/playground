@@ -1,3 +1,4 @@
 Copyright (c) 2010, Kal Sze (Twitter: [k_sze](http://twitter.com/k_sze); website: [Kalunite.net](http://kalunite.net))
 All rights reserved.
 Test
+More changes
