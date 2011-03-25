@@ -2,3 +2,5 @@ Copyright (c) 2010, Kal Sze (Twitter: [k_sze](http://twitter.com/k_sze); website
 All rights reserved.
 Test
 More changes
+
+Testing empty commit
