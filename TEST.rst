@@ -4,7 +4,7 @@ Lurklib is a threading-safe, event-driven IRC library designed for creating anyt
 
 For an example, see example.py.
 
- | Developed by: LK- <lk07805@gmail.com>
+ | Developed by: LK- lk07805@gmail.com
  | WWW: http://github.com/LK-/lurklib
  | Issues: http://github.com/LK-/lurklib/issues
 
