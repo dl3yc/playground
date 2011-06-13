@@ -1,1 +1,1 @@
-TEST.rst[]
+link:TEST.rst[]
