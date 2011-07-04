@@ -1,6 +1,5 @@
 /*
  amiridis-test
- amiridis
  * Licensed to the Apache Software Foundation (ASF) under one
  Super duper
  * or more contributor license agreements.  See the NOTICE file
