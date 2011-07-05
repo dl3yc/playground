@@ -20,6 +20,7 @@
  * specific language governing permissions and limitations
  * under the License.
  amiridis-test
+ amiridis
  */
 package org.ops4j.pax.swissbox.tinybundles.dp;
 
