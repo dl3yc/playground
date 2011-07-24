@@ -1,5 +1,1 @@
-==HEAD
-
 L<text|http://github.com/>
-
-==cut
