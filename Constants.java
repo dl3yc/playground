@@ -29,6 +29,7 @@
  * under the License.
  amiridis-test
  amiridis
+ test
  */
 package org.ops4j.pax.swissbox.tinybundles.dp;
 
