@@ -6,7 +6,12 @@ Line
 
 Line
 
-# Render emails
+# Auto link URL & emails
 
 Allen McPherson \<al_web_mail@lanl.gov>    
 David Daniel \<ddd@lanl.gov>
+
+Allen McPherson al_web_mail@lanl.gov    
+David Daniel ddd@lanl.gov
+
+http://github.com
