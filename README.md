@@ -36,3 +36,7 @@ curl_exec($ch);
 curl_close($ch);
 ?>
 ```
+
+Does the following What the hell happenned to the cursor?
+
+`**standalone**`
