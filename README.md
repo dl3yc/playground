@@ -39,6 +39,6 @@ curl_close($ch);
 
 Does the following What the hell happenned to the cursor?
 
-`**standalone**`
+**standalone**
 
-Does this work? **Shit**
+Does this work? **Cool**
