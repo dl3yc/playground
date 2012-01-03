@@ -160,13 +160,6 @@ To make nested fields work dynamically, the JS code needs to know what elements 
 
 For example, if you are using nested fields inside a table, you can do:
 
-```javascript
-element.nestedFields({
-  containerSelector: 'tbody',
-  itemSelector: 'tr'
-});
-```
-
 #### Callbacks
 
 Actions can be executed before or after items get inserted or removed. There are four callbacks available: `beforeInsert`, `afterInsert`, `beforeRemove` and `afterRemove`. All of them receive the item as the first parameter, so you can query or modify it before the operation.
