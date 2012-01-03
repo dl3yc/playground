@@ -118,16 +118,6 @@ There are some view options, but most are internal. There is just one you really
 Sometimes you want to show something when the collection is empty. Just set `show_empty` to `true` and prepare the block to receive `nil` when the collection is empty. Awesome nested fields will take care to show the empty message when there are no elements and remove it when one is added.
 To implement this on the basic example, do something like:
 
-```erb
-<%= f.nested_fields_for :phones, show_empty: true do |f| %>
-  <% if f %>
-    <% fields code... %>
-  <% else %>
-    <p class="empty">There are no phones.</p>
-  <% end %>
-<% end %>
-```
-
 And yeah, you need to mark it with the class `empty` or any other selector configured via javascript.
 
 #### render_template
