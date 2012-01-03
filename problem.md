@@ -38,10 +38,6 @@ gem 'awesome_nested_fields'
 
 3. (Optional) The javascript dependency will be added automatically to the defaults javascript files. If you don't use `javascript_include_tag :defaults` in your templates for some reason, require the file manually.
 
-```html
-<script src="/javascripts/jquery.nested-fields.min.js" type="text/javascript"></script>
-```
-
 4. Now you're ready to rock with your _awesome_ nested models. It will be so fun as in Rails 3.1, I promise.
 
 
@@ -51,13 +47,6 @@ Basic Usage
 ### Model
 
 First, make sure the object that has the `has_many` or `has_and_belongs_to_many` relation accepts nested attributes for the collection you want. For example, if a person _has_many_ phones, we'll have a model like this:
-
-```ruby
-class Person < ActiveRecord::Base
-  has_many :phones
-  accepts_nested_attributes_for :phones, allow_destroy: true
-end
-```
 
 The `accepts_nested_attributes_for` is a method from Active Record that allows you to pass attributes of nested models directly to its parent, instead of instantiate each child object separately. In this case, `Person` gains a method called `phones_attributes=`, that accepts data for new and existing phones of a given person. The `allow_destroy` option enables us to also delete child objects. To know more about nested attributes, check out the [ActiveRecord::NestedAttribute](https://github.com/rails/rails/blob/master/activerecord/lib/active_record/nested_attributes.rb#L1) class.
 
