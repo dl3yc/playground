@@ -173,7 +173,6 @@ It is possible to control nested fields programmatically using a jQuery-style AP
 
 The code above inserts a new item and does not execute the `beforeInsert` callback function. The complete list of available methods is shown below.
 
-* `remove(element, options)` removes `element` from the container. There are two available options: `skipBefore` and `skipAfter`. The last argument is optional.
 * `removeAll(options)` removes all elements from the container. There are two available options: `skipBefore` and `skipAfter`. The argument is optional.
 * `items()` returns a list of items on the container.
 * `destroy()` deactivates nested fields for the element.
