@@ -171,29 +171,7 @@ element.nestedFields({
 
 Actions can be executed before or after items get inserted or removed. There are four callbacks available: `beforeInsert`, `afterInsert`, `beforeRemove` and `afterRemove`. All of them receive the item as the first parameter, so you can query or modify it before the operation.
 
-```javascript
-element.nestedFields({
-  beforeInsert: function(item) {
-    item.css('color', 'red'); // Make some operation
-    console.log(item + ' will be inserted.')
-  },
-  afterRemove: function(item) {
-    console.log(item + ' was removed.');
-  }
-});
-```
-
 The before callbacks also allow you to control when the element will be inserted or removed, so you can perform async operations (ajax, of course!) or choose to not insert or remove the element at all if some condition is not met. Just receive a second parameter as the handler function.
-
-```javascript
-element.nestedFields({
-  beforeInsert: function(item, insert) {
-    $.get('/ajax_function', function() {
-      insert();
-    });
-  }
-});
-```
 
 
 ### Javascript API
