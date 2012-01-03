@@ -97,12 +97,6 @@ If you're paying attention, you noticed the key elements are marked with special
 
 This is the easiest part: just activate the nested fields actions when the page loads. We can put this in the `application.js` file (or in any other place that gets executed in the page):
 
-```javascript
-$(document).ready(function(e) {
-  $('FORM').nestedFields();
-});
-```
-
 Now enjoy your new nested model form!
 
 
