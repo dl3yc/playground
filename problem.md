@@ -17,10 +17,6 @@ gem 'awesome_nested_fields'
 
 2. Add this line to `app/assets/javascripts/application.js` (or where you prefer) so the javascript dependency is added to the asset pipeline. Be sure to include this line after jQuery and jQuery UJS Adapter.
 
-```coffeescript
-//= require jquery.nested-fields
-```
-
 3. Rock with your _awesome_ nested models.
 
 
