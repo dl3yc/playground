@@ -136,14 +136,6 @@ When `nested_fields_for` is called, it also includes a `<script>` tag with the h
 
 To do this, just set the `render_template` option to `false` and use the `nested_fields_template` helper to put the templates anywhere on the page.
 
-```erb
-<%= f.nested_fields_for :phones, render_template: false do |f| %>
-  <% nested field code %>
-<% end %>
-<!-- some lines after -->
-<%= nested_fields_templates %>
-```
-
 Keep in mind that you can call the templates only after `nested_fields_for` and inside the DOM element you apply the `nestedFields()` javascript, so it still can find the templates.
 
 ### Javascript Options
