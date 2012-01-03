@@ -28,10 +28,6 @@ gem 'awesome_nested_fields'
 
 1. Add the gem to your Gemfile and run `bundle install` to make sure the gem gets installed. Be sure to include it after `jquery-rails` so the javascript files are added in the correct order at the templates.
 
-```ruby
-gem 'awesome_nested_fields'
-```
-
 2. Copy the javascript dependency to `public/javascripts` by using the generator.
 
   rails generate awesome_nested_fields:install
