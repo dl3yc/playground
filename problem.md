@@ -200,12 +200,6 @@ element.nestedFields({
 
 It is possible to control nested fields programmatically using a jQuery-style API.
 
-```javascript
-element.nestedFields('insert', function(item) {
-  // Make some operation with item
-}, {skipBefore: true});
-```
-
 The code above inserts a new item and does not execute the `beforeInsert` callback function. The complete list of available methods is shown below.
 
 * `insert(callback, options)` inserts a new item in the container. The `callback` function is executed just before the item is inserted. There are two available options: `skipBefore` and `skipAfter`. Both arguments are optional.
