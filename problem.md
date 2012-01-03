@@ -173,7 +173,6 @@ It is possible to control nested fields programmatically using a jQuery-style AP
 
 The code above inserts a new item and does not execute the `beforeInsert` callback function. The complete list of available methods is shown below.
 
-* `items()` returns a list of items on the container.
 * `destroy()` deactivates nested fields for the element.
 
 These methods can be called from the element where nested fields are applied (e.g. a form) or from any element inside it (e.g. an input or the container itself).
