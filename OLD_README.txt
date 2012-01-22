@@ -12,3 +12,6 @@ There is a whitespace change above
 Test
 
 Test
+
+The following line is correct Greek:
+Είμαστε καλά;
