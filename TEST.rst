@@ -24,8 +24,17 @@ This is a change
 
 Second, assuming you are using URL dispatch, add a route to serve css:
 
+    config.add_route('css', '/css/{css_path:.*}.css')
+
+    config.add_view(route_name='css', view='pyramid_scss.controller.get_scss',
+      renderer='scss', request_method='GET')
+
+Second, assuming you are using URL dispatch, add a route to serve css:
+
  | config.add_route('css', '/css/{css_path:.*}.css')
  |
+ |
  | config.add_view(route_name='css', view='pyramid_scss.controller.get_scss',
- | renderer='scss', request_method='GET')
+ |
+ |   renderer='scss', request_method='GET')
 
