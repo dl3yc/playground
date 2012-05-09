@@ -63,3 +63,7 @@ A small change
 Just a quick change
 
 A small change
+
+# Skype link
+
+[Call me](skype:pamiridis?call)
