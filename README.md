@@ -78,9 +78,9 @@ A small change
 
     Bindings:
 
-        - Bindings should mimic Dired/Ibuffer wherever possible. Magit is listed primarily because I want TAB to open up the long description of the challenge.
+    - Bindings should mimic Dired/Ibuffer wherever possible. Magit is listed primarily because I want TAB to open up the long description of the challenge.
 
-        At least:
+    At least:
 
         - n/p
         - ENTER/o: launch `vimgolf` with the correct arg.
