@@ -18,3 +18,6 @@ But indented because it's in a bulleted list
       b;
   }
   ```
+
+  This is a small change
+  
