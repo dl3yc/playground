@@ -1,8 +1,9 @@
 Test Relative Download Links
 ============================
 
-[LICENSE](/raw/v1/LICENSE.mdown)
-
+[LICENSE](playground/raw/v1/LICENSE.mdown) `playground/raw/v1/LICENSE.mdown`
+[LICENSE](raw/v1/LICENSE.mdown) `raw/v1/LICENSE.mdown`
+[LICENSE](/raw/v1/LICENSE.mdown) `/raw/v1/LICENSE.mdown`
 
 ```
 ## About
