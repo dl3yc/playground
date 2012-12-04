@@ -1,7 +1,7 @@
 Test Relative Download Links
 ============================
 
-[LICENSE](raw/v1/LICENSE.mdown)
+[LICENSE](/raw/v1/LICENSE.mdown)
 
 
 ```
