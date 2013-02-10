@@ -1,3 +1,5 @@
 https://secure.travis-ci.org/shuber/sub_diff.png
 
 link:https://secure.travis-ci.org/shuber/sub_diff.png
+
+link:README.md
