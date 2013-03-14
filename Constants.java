@@ -1,3 +1,5 @@
+/* This is so good */
+
 /* Trying to reproduce */
 
 /* Testing "empty" commit messages */
