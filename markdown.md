@@ -1,4 +1,4 @@
-*italics don't work*  
+*italics don't work*
 **bold?**
 
 But indented because it's in a bulleted list
@@ -20,4 +20,4 @@ But indented because it's in a bulleted list
   ```
 
   This is a small change
-  
+  Yeap
