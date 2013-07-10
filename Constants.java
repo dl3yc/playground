@@ -2,6 +2,8 @@
 
 /* Trying to reproduce */
 
+/* Great change */
+
 /* Testing "empty" commit messages */
 
 /* This is of course another perfect comment */
