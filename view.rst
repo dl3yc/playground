@@ -26,8 +26,8 @@ You can create this view by just subclassing :class:`django_postgres.View`. In
         projection = ['myapp.Table.*']
         sql = """SELECT * FROM myapp_table WHERE condition"""
 
-:class:`View`
-=============
+class `View`
+============
 
 .. class:: django_postgres.View
 
