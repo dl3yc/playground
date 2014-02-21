@@ -20,3 +20,4 @@ yea
 
 a small change
 
+Test another long commit message
