@@ -1,1 +1,1 @@
-![](../afolder/AlienSanta-Petros.jpg)
+![](afolder/AlienSanta-Petros.jpg)
