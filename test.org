@@ -1,0 +1,30 @@
+# -*- mode: org; mode: auto-fill -*-
+
+# by default don't subscript a_b. a_{b} is still subscripted
+#+OPTIONS: ^:{}
+
+#+TITLE: Kling's build/distribution system
+
+* General overview
+
+This is a set of =Makefiles= designed to provide build and deployment
+infrastructure for various software projects being developed at Oblong
+Industries. This infrastructure is used every time a developer run =make=, every
+time a package maintainer types =dpkg-buildpackage= and every time a user
+installs the resulting package.
+
+It is important to note that this build system is *not a replacement for make*.
+Instead, it uses =make= to set up a code repository to allow for efficient
+builds and consistent, organized packages.
+
+** Motivation and target use cases
+
+This was designed to fit the development practices used at Oblong. These include
+
+- The code being built has some libraries, some tools and some daemons. Many
+  things can have configuration files and resources that need to be shipped
+- Debian-based OS
+- Daemons to be built should be managed by upstart
+- Repositories organized into sub-projects, many of which depend on each other
+- The bulk of the code is in C or C++. Lots of it is broken-out into libraries,
+  but still lives in the same repository
