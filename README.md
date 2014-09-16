@@ -16,3 +16,8 @@ Title | Title
 %h1 Gruß von Haml!
 %p= markdown(:Grüße)
 ```
+
+```haml
+%h1 Gruß von Haml!
+%p= markdown(:Grüße)
+```
