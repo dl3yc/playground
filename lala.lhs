@@ -1,4 +1,4 @@
-> infixr :>
+> asdfasdf :>
 > data StandardList a = N | a :> (StandardList a)
 >    deriving Show
 
